@@ -1,0 +1,15 @@
+/**
+ * Theme Name: Bizex Child
+ * Template: bizex
+ * Version: 1.0
+ * Description: Bizex - Business Agency WordPress theme
+ * Author: themexriver
+ **/
+
+body .gform_wrapper.cnt-form_wrapper .gform_body .gfield input { border: 1px solid #e7e7e7; padding: 15px; }
+body .gform_wrapper.cnt-form_wrapper .gform_body .gfield textarea { border: 1px solid #e7e7e7; padding: 15px; height: 180px; resize: none; }
+body .gform_wrapper.cnt-form_wrapper .gform_footer { margin: 20px 0 0; padding: 0; }
+body .gform_wrapper.cnt-form_wrapper .gform_footer input[type="submit"] { color: #fff; border: none; padding: 15px 50px; font-weight: 500; border-radius: 5px; -webkit-transition: 500ms all ease; transition: 500ms all ease; background: var(--base-color); margin: 0; }
+body .gform_wrapper.cnt-form_wrapper .gform_footer input[type="submit"]:hover { background: #fec350; color: #000; }
+body .gform_wrapper.cnt-form_wrapper .gform_body .gfield.gfield_error input { border-color: #c02b0a; }
+body .gform_wrapper.cnt-form_wrapper .gform_body .gfield.gfield_error .gfield_validation_message { padding: 0; border: none; background: none; font-size: 12px; margin: 2px 0 0; }

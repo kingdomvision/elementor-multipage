@@ -1,0 +1,42 @@
+.bz-counter-section {
+	padding: 75px 0px 125px;
+}
+.bz-counter-title  {
+	i {
+		font-size: 18px;
+		color: var(--base-color);
+	}
+	p {
+		color: #1D1212;
+		font-size: 20px;
+		padding-top: 10px;
+	}
+}
+.bz-counter-content {
+	padding-top: 80px;
+}
+.bz-counter-item {
+	.counter-icon {
+		width: 98px;
+		height: 98px;
+		margin-right: 24px;
+		border-radius: 100%;
+		background: #FFFFFF;
+		box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.07);
+	}
+	.counter-text {
+		h3 {
+			color: #000000;
+			font-size: 40px;
+			font-weight: 700;
+			line-height: 50px;
+			letter-spacing: 0.04em;
+			font-family: var(--number-font);
+		}
+		p {
+			color: #666775;
+			font-weight: 600;
+			padding-top: 10px;
+		}
+	}
+}

@@ -1,0 +1,164 @@
+@keyframes flying {
+	0% {
+		-webkit-transform: translate(15px, 15px);
+		transform: translate(15px, 15px);
+	}
+	50% {
+		-webkit-transform: translate(-15px, -15px);
+		transform: translate(-15px, -15px);
+	}
+	100% {
+		-webkit-transform: translate(15px, 15px);
+		transform: translate(15px, 15px);
+	}
+}
+.bz-growth-section {
+	z-index: 1;
+	background-color: #f1f5fd;
+	padding: 170px 0px 165px;
+	.bz-section-title {
+		h2 {
+			max-width: 480px;
+		}
+	}
+	.bz-about-year {
+		top: 0;
+		bottom: auto;
+		border-radius: 0;
+		background-color: var(--base-color);
+		h3 {
+			z-index: 1;
+			position: relative;
+			&:before {
+				top: 0;
+				right: -5px;
+				z-index: -1;
+				width: 35px;
+				content: '';
+				height: 35px;
+				position: absolute;
+				border-radius: 100%;
+				background-color: #FFBB35;
+			}
+		}
+	}
+	.bz-growth-img {
+		top: 130px;
+		right: 175px;
+		img {
+			animation: flying 2.5s linear infinite;
+		}
+	}
+	.bz-growth-circle-img {
+		right: 20%;
+		z-index: -1;
+		bottom: 105px;
+	}
+	.bz-growth-list {
+		top: 60%;
+		right: 100px;
+		transform: translateY(-50%);
+		li {
+			color: #1D1D1D;
+			font-weight: 500;
+			margin:  30px 0px;
+			writing-mode: vertical-lr;
+			a {
+				&:hover {
+					color: var(--base-color);
+				}
+			}
+		}
+	}
+	.bz-growth-shape3 {
+		left: -125px;
+		bottom: -75px;
+	}
+	.bz-growth-shape2 {
+		top: 45%;
+		left: 60px;
+	}
+	.bz-growth-shape1 {
+		top: 100px;
+		left: 65px;
+	}
+	.bz-bottom-title {
+		right: 15%;
+		bottom: -180px;
+	}
+}
+.bz-bottom-title {
+	right: 0;
+	bottom: 0;
+	z-index: 1;
+	color: #fff;
+	font-size: 200px;
+	font-weight: 800;
+	letter-spacing: -0.04em; 
+	font-family: var(--number-font);
+	text-shadow: 0px 4px 14px rgba(0, 0, 0, 0.06);
+	&:before {
+		top: 65px;
+		left: 215px;
+		z-index: -1;
+		width: 60px;
+		content: '';
+		height: 60px;
+		position: absolute;
+		border-radius: 100%;
+		background-color: #fab8c4;
+	}
+}
+.bz-growth-content {
+	max-width: 620px;
+}
+.bz-growth-progress {
+	margin-top: 65px;
+	.skill-progress-bar {
+		max-width: 535px;
+		.skill-set-percent {
+			margin-bottom: 28px;
+			h4 {
+				color: #000000;
+				font-size: 15px;
+				font-weight: 600;
+				line-height: 18px;
+				padding-bottom: 25px;
+				text-transform: uppercase;
+				span {
+					font-family: var(--number-font);
+				}
+			}
+			.progress {
+				height: 2px;
+				border-radius: 0;
+				position: relative;
+				overflow: visible;
+				border-radius: 1px;
+				background-color: #fff;
+				span {
+					right: 0;
+					top: -45px;
+					color: #000000;
+					font-size: 18px;
+					font-weight: 600;
+					position: absolute;
+					font-family: var(--number-font);
+				}
+			}
+			.progress-bar {
+				top: -10px;
+				width: 0;
+				float: left;
+				height: 5px;
+				position: relative;
+				border-radius: 2.5px;
+				transition:  1s all ease-in-out;
+				background: var(--base-color);
+			}
+		}
+	}
+}
+.bz-growth-section.servcei-details-growth {
+	background-color: transparent;
+}

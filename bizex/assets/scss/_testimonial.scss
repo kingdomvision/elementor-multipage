@@ -1,0 +1,254 @@
+@keyframes scale {
+	from {
+		transform: scale(0.9);
+		-webkit-transform: scale(0.9);
+	}
+	to {
+		transform: scale(1.08);
+		-webkit-transform: scale(1.08);
+	} 
+}
+
+@-webkit-keyframes scale {
+	from {
+		transform: scale(0.9);
+		-webkit-transform: scale(0.9);
+	}
+	to {
+		transform: scale(1.08);
+		-webkit-transform: scale(1.08);
+	} 
+}
+.bz-testimonial-section {
+	overflow: hidden;
+	padding: 130px 0px;
+	.bz-section-title {
+		p {
+			margin: 0 auto;
+			max-width: 550px;
+		}
+	}
+}
+.bz-testimonial-content {
+	padding-top: 60px;
+	.bz-testimonial-shape,
+	.bz-testimonial-shape2 {
+		width: 85px;
+		height: 85px;
+		overflow: hidden;
+		border-radius: 100%;
+		border: 5px solid #fff;
+		box-shadow: 0px 4px 25px 0px #00000012;
+		animation: 1.5s ease 0s infinite alternate none running scale;
+	}
+	.bz-testimonial-shape {
+		top: -100px;
+		left: -150px;
+	}
+	.bz-testimonial-shape2 {
+		right: -150px;
+		bottom: 300px;
+	}
+	.bz-quote-icon {
+		top: -100px;
+		right: -90px;
+		color: #BDAFBC1F;
+		font-size: 115px;
+	}
+}
+.bz-testimonial-item-area {
+	padding: 55px 0px;
+}
+.bz-testimonial-item {
+	margin: 0 auto;
+	max-width: 1095px;
+	padding: 95px 125px;
+	box-shadow: 0px 4px 25px 0px #00000012;
+	.bz-testimonial-img {
+		left: 0;
+		right: 0;
+		top: -55px;
+		width: 105px;
+		height: 105px;
+		margin: 0 auto;
+		overflow: hidden;
+		border-radius: 100%;
+		border: 8px solid #fff;
+		box-shadow: 0px 4px 14px rgb(0 0 0 / 6%);
+	}
+	.bz-testimonial-text {
+		font-size: 30px;
+		font-weight: 500;
+		line-height: 60px;
+		letter-spacing: -0.05em;
+	}
+	.bz-testimonial-rate {
+		margin-bottom: 20px;
+		li {
+			color: #FFB11B;
+			font-size: 15px;
+		}
+	}
+}
+.bz-testimonial-nav-item {
+	cursor: pointer;
+	border-radius: 65px;
+	padding: 35px 35px 30px;
+	transition: 500ms all ease;
+	h3 {
+		color: #08151F;
+		font-size: 20px;
+		font-weight: 600;
+		padding-bottom: 20px;
+	}
+	span {
+		color: #5956F0;
+	}
+	&.slick-current.slick-active.slick-center {
+		background-color: #5956F0;
+		h3 {
+			color: #fff;
+		}
+		span {
+			color: #fff;
+		}
+	}
+}
+.bz-testimonial-section-2 {
+	padding: 130px 0px 280px;
+	.bz-testimonial-shape {
+		left: 0;
+		bottom: -40px;
+	}
+	.bz-section-title {
+		margin: 0 auto;
+		max-width: 650px;
+		h2 {
+			span {
+				-webkit-text-fill-color: #2029BD;
+			}
+		}
+	}
+	.bz-bottom-title {
+		left: 20%;
+		right: 0;
+		bottom: -120px;
+		span {
+			color: #2029BD;
+		}
+	}
+	.bz-testimonial-btn {
+		bottom: 0;
+		right: 10%;
+		z-index: 1;
+		.bz-btn-2  {
+			a {
+				background-color: #FFC13E;
+				i {
+					color: #fff;
+					background-color: #000000;
+				}
+			}
+		}
+	}
+}
+.bz-testimonial-items-2 {
+	z-index: 1;
+	max-width: 420px;
+	padding: 55px 50px 0px;
+	&:before {
+		top: 0;
+		left: 0;
+		z-index: -1;
+		height: 80%;
+		width: 100%;
+		content: '';
+		position: absolute;
+		background-color: #fff;
+		box-shadow: 0px 4px 41px 0px #0000000D;
+	}
+	.bz-testimonial-icon {
+		margin-bottom: 25px;
+		i {
+			color: #2029BD;
+			font-size: 45px;
+		}
+	}
+	.bz-testimonial-text {
+		color: #33343A;
+		font-size: 18px;
+		font-weight: 500;
+		line-height: 37px;
+		margin-bottom: 30px;
+		letter-spacing: -0.04em;
+	}
+	.bz-testimonial-rate {
+		li {
+			color: #FFB820;
+			font-size: 15px;
+		}
+	}
+	.bz-testimonial-author {
+		margin-top: 40px;
+		.bz-author-img {
+			width: 80px;
+			height: 80px;
+			margin: 0 auto;
+			overflow: hidden;
+			border-radius: 100%;
+			border: 6px solid #FFFFFF;
+			box-shadow: 0px 4px 4px 0px #EEEEEE;
+		}
+		.bz-author-name-degi {
+			margin-top: 20px;
+			h3 {
+				color: #08151F;
+				font-size: 20px;
+				font-weight: 500;
+			}
+			span {
+				color: #2029BD;
+				font-weight: 500;
+			}
+		}
+	}
+}
+.bz-testimonial-slider-2 {
+	.slick-list {
+		margin: -50px;
+		padding: 50px;
+	}
+	.slick-dotted.slick-slider {
+		margin-bottom: 0;
+	}
+	.slick-slide {
+		opacity: 0;
+		transition: 500ms all ease;
+		&.slick-active {
+			opacity: 1;
+		}
+	}
+}
+.bz-testimonial-slider-area-2 {
+	margin-top: 60px;
+	.carousel_nav {
+		button {
+			top: 50%;
+			width: 50px;
+			border: none;
+			height: 50px;
+			position: absolute;
+			border-radius: 100%;
+			background-color: #fff;
+			transform: translateY(-50%);
+			background-color: transparent;
+			box-shadow: 0px 4px 11px 0px #0000000F;
+		}
+		.testi-left_arrow {
+			left: -100px;
+		}
+		.testi-right_arrow {
+			right: -120px;
+		}
+	}
+}

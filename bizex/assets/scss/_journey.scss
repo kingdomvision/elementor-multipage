@@ -1,0 +1,135 @@
+.bz-journey-section {
+	overflow: hidden;
+	padding: 245px 0px 145px;
+	.bz-section-title {
+		margin: 0 auto;
+		max-width: 675px;
+		p {
+			margin: 0 auto;
+			max-width: 540px;
+		}
+	}
+}
+.bz-journey-item {
+	z-index: 1;
+	width: 412px;
+	height: 412px;
+	padding-top: 110px;
+	border-radius: 100%;
+	border: 1px solid rgba(89, 86, 240, 0.2);
+	&:before {
+		top: 10px;
+		left: 10px;
+		z-index: -1;
+		content: '';
+		width: 390px;
+		height: 390px;
+		position: absolute;
+		border-radius: 100%;
+		border: 1px solid #D9D9D9
+	}
+	.journey-date {
+		color: #fff;
+		font-size: 28px;
+		font-weight: 500;
+		padding: 8px 35px;
+		border-radius: 40px;
+		margin-bottom: 40px;
+		display: inline-block;
+		background-color: #FEC350;
+		transition: 500ms all ease;
+		&.bottom-year {
+			left: 0;
+			right: 0;
+			opacity: 0;
+			bottom: 0px;
+			margin: 0 auto;
+			max-width: 128px;
+			transition-delay: .3s;
+		}
+		&.bz-sweet {
+			background-color: #F499A2;
+		}
+		&.bz-purple {
+			background-color: #5956F0;
+		}
+	}
+	.journey-icon {
+		left: 0;
+		right: 0;
+		top: 55px;
+		opacity: 0;
+		transition: 500ms all ease;
+		transition-delay: .2s;
+		img {
+			margin: 0 auto;
+		}
+	}
+	.journey-text {
+		h3 {
+			color: #000000;
+			font-size: 28px;
+			font-weight: 500;
+			padding-bottom: 20px;
+		}
+		p {
+			margin:  auto;
+			max-width: 285px;
+		}
+	}
+}
+.bz-journey-content {
+	padding-top: 140px;
+}
+.bz-journey-slider {
+	.slick-prev, .slick-next {
+		display: none !important;
+	}
+	.slick-list {
+		overflow: visible;
+	}
+	.slick-current.slick-active.slick-center {
+		transform: translateY(-80px);
+		.bz-journey-item {
+			border: 1px solid #5956F0;
+			.journey-date {
+				opacity: 0;
+				&.bottom-year {
+					opacity: 1;
+					bottom: -20px;
+				}
+			}
+			.journey-icon {
+				top: 85px;
+				opacity: 1;
+			}
+		}
+	}
+	.slick-slide {
+		opacity: 0;
+		transition: 500ms all ease;
+		&.slick-active {
+			opacity: 1;
+		}
+	}
+	.slick-dots {
+		li {
+			width: 10px;
+			height: 10px;
+			margin: 0px 8px;
+			border-radius: 20px;
+			background-color: #D9D9D9;
+			transition: 500ms all ease;
+			button {
+				display: none;
+			}
+			&.slick-active {
+				width: 30px;
+				background-color: #5956F0;
+			}
+		}
+	}
+}
+.bz-journey-section.service-details-journey {
+	background-color: #f1f5fd;
+}

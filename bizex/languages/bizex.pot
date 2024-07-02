@@ -1,0 +1,343 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Bizex\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-03-21 07:15+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.6.3; wp-6.1.1\n"
+"X-Domain: bizex"
+
+#: template-parts/footer/footer-one.php:95
+#: template-parts/footer/footer-four.php:90
+msgid " © 2023 Themexriver All Rights Reserved."
+msgstr ""
+
+#: inc/template-tags.php:67
+#, php-format
+msgid "%1$s"
+msgstr ""
+
+#. 1: title.
+#: comments.php:35
+msgid "1 Comment"
+msgstr ""
+
+#: inc/bizex-functions.php:613 inc/bizex-functions.php:618
+msgid "404"
+msgstr ""
+
+#: inc/bizex-functions.php:593
+msgid "404 Not Found"
+msgstr ""
+
+#: inc/class-wp-bizex-navwalker.php:358
+msgid "Add a menu"
+msgstr ""
+
+#: functions.php:158 functions.php:169 functions.php:180 functions.php:191
+msgid "Add Footer widgets here."
+msgstr ""
+
+#: functions.php:147
+msgid "Add widgets here."
+msgstr ""
+
+#: template-parts/footer/footer-four.php:68
+msgid "App Store"
+msgstr ""
+
+#. Name of the theme
+msgid "Bizex"
+msgstr ""
+
+#. Description of the theme
+msgid "Bizex - Business Agency WordPress theme"
+msgstr ""
+
+#. Name of the template
+msgid "Bizex Elementor Full Template"
+msgstr ""
+
+#: lib/plugin-activation.php:11
+msgid "Bizex Tools"
+msgstr ""
+
+#: inc/bizex-functions.php:486
+msgid "Blog"
+msgstr ""
+
+#: template-parts/content-search.php:19 template-parts/content-single.php:20
+#: template-parts/content.php:19
+msgid "BY:"
+msgstr ""
+
+#: inc/template-functions.php:71
+msgid "Comment"
+msgstr ""
+
+#: template-parts/content-search.php:26 template-parts/content-single.php:26
+#: template-parts/content.php:26
+msgid "Comments"
+msgstr ""
+
+#: comments.php:69
+msgid "Comments are closed."
+msgstr ""
+
+#. 1: comment count number, 2: title.
+#: comments.php:41
+#, php-format
+msgctxt "comments title"
+msgid "%1$s Comment"
+msgid_plural "%1$s Comments"
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/plugin-activation.php:42
+msgid "Contact Form 7"
+msgstr ""
+
+#. %s: Name of current post. Only visible to screen readers
+#: template-parts/content-single.php:37
+#, php-format
+msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr ""
+
+#. %s: Name of current post. Only visible to screen readers
+#: template-parts/content-page.php:39
+#, php-format
+msgid "Edit <span class=\"screen-reader-text\">%s</span>"
+msgstr ""
+
+#: inc/template-functions.php:88
+msgid "Email"
+msgstr ""
+
+#: lib/plugin-activation.php:29
+msgid "Envato Market"
+msgstr ""
+
+#: functions.php:71
+msgid "Footer"
+msgstr ""
+
+#: functions.php:189
+msgid "Footer Four"
+msgstr ""
+
+#: functions.php:156
+msgid "Footer One"
+msgstr ""
+
+#: functions.php:178
+msgid "Footer Three"
+msgstr ""
+
+#: functions.php:167
+msgid "Footer Two"
+msgstr ""
+
+#: inc/bizex-functions.php:261
+msgid "Gallery"
+msgstr ""
+
+#. Author URI of the theme
+msgid "https://themeforest.net/user/themexriver"
+msgstr ""
+
+#. URI of the theme
+msgid "https://themexriver.com/wp/bizex"
+msgstr ""
+
+#: lib/ocdi/functions.php:18
+msgid ""
+"Import process may take 3-10 minutes. If you facing any issues please "
+"contact our support.After Import Succesfuly go to Appearance->Menu And Set "
+"your Menu"
+msgstr ""
+
+#: template-parts/content-none.php:44
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: inc/template-functions.php:70
+msgid "Leave a comment"
+msgstr ""
+
+#. used between list items, there is a space after the comma
+#: inc/template-tags.php:64
+msgctxt "list item separator"
+msgid ""
+msgstr ""
+
+#: inc/cs-framework-functions.php:124 inc/cs-framework-functions.php:152
+msgid "Logo"
+msgstr ""
+
+#: functions.php:218
+msgctxt "Manrope: on or off"
+msgid "on"
+msgstr ""
+
+#: lib/plugin-activation.php:53
+msgid "MC4WP: Mailchimp for WordPress"
+msgstr ""
+
+#: inc/template-functions.php:86
+msgid "Name"
+msgstr ""
+
+#: inc/template-functions.php:58
+msgid "Next Post"
+msgstr ""
+
+#: template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr ""
+
+#: lib/plugin-activation.php:59
+msgid "One Click Demo Import"
+msgstr ""
+
+#: functions.php:72
+msgid "Onepage Menu"
+msgstr ""
+
+#: inc/bizex-functions.php:616
+msgid ""
+"Oops! The page you are looking for does not exist. It might have been moved "
+"or deleted."
+msgstr ""
+
+#: inc/bizex-functions.php:614
+msgid ""
+"Oops... It looks like you ‘re lost !\n"
+msgstr ""
+
+#: template-parts/content-single.php:50 template-parts/content-page.php:25
+msgid "Pages:"
+msgstr ""
+
+#: functions.php:225
+msgctxt "Playfair Display: on or off"
+msgid "on"
+msgstr ""
+
+#. %s: post author.
+#: inc/template-tags.php:46
+#, php-format
+msgctxt "post author"
+msgid "by %s"
+msgstr ""
+
+#. %s: post date.
+#: inc/template-tags.php:30
+#, php-format
+msgctxt "post date"
+msgid "Posted on %s"
+msgstr ""
+
+#: inc/template-functions.php:57
+msgid "Previous Post"
+msgstr ""
+
+#: functions.php:70
+msgid "Primary"
+msgstr ""
+
+#: template-parts/content-search.php:30 template-parts/content.php:30
+msgid "Read More"
+msgstr ""
+
+#. 1: link to WP admin new post page.
+#: template-parts/content-none.php:24
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: functions.php:222
+msgctxt "Roboto: on or off"
+msgid "on"
+msgstr ""
+
+#: inc/bizex-functions.php:106
+msgid "Search Here"
+msgstr ""
+
+#. %s: search query.
+#: inc/bizex-functions.php:566
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: inc/bizex-functions.php:189
+msgid "Search..."
+msgstr ""
+
+#: functions.php:145
+msgid "Sidebar"
+msgstr ""
+
+#: lib/plugin-activation.php:36
+msgid "Slider Revolution"
+msgstr ""
+
+#: template-parts/content-none.php:37
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: lib/plugin-activation.php:47
+msgid "SVG Support"
+msgstr ""
+
+#: functions.php:214
+msgctxt "Syne: on or off"
+msgid "on"
+msgstr ""
+
+#. 1: list of tags.
+#: inc/template-tags.php:67
+msgid "Tags:"
+msgstr ""
+
+#. Author of the theme
+msgid "themexriver"
+msgstr ""
+
+#: inc/template-functions.php:144
+msgid "Type Keywords"
+msgstr ""
+
+#: inc/template-functions.php:90
+msgid "Website"
+msgstr ""
+
+#: lib/plugin-activation.php:64
+msgid "WooCommerce"
+msgstr ""
+
+#: inc/bizex-functions.php:239
+msgid "X"
+msgstr ""
+
+#: inc/template-functions.php:125
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: template-parts/footer/footer-three.php:80
+msgid "© Copyright Bisbuzz Consulting 2023"
+msgstr ""
