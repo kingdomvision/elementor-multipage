@@ -1,5 +1,3 @@
-Sure, I can help you write a README for your Elementor multi-page WordPress theme. Here's a basic template that you can modify to fit your specific needs:
-
 ---
 
 # [Bizex]
